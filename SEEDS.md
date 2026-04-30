@@ -244,6 +244,9 @@ Every engagement produces the same quality.
 Every managed service runs the same fleet.
 Every rebid starts with 3 years of intelligence competitors can't replicate.
 
+Interesting article / viewpoint recently about how the moat becomes the native use of AI. It used to be - software companies had large margins, other traditional companies did not.
+The future model is; AI-[x] companies have the large margins. AI legal firms, AI software firms, AI sytems integrator firms, AI manufacturing firms and so on. This is being reflected in price action that has seen some never-before (or anticipated) price moves in the stock market in 2026. A crazy statistic recently where the S&P set a record high (late April) followed the next day by some companies recording record 52 week lows. AI is already causing huge volatility and a substrate change in the market
+
 **The packaging:**
 White paper → Framework → Toolkit → Training Programme → Managed Service Offering
 
