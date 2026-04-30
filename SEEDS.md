@@ -179,6 +179,12 @@ Hiring insight: "Teams aren't asking how do we hire more developers. They're ask
 hire developers who can architect workflows for agents to execute. You can't delegate task
 decomposition to an agent if you don't understand the task." — Index.dev, 2026
 
+### Cobalt Engineers
+A plethora of large, socio-critical institutions have long had issues with being able to decipher legacy code-bases
+Cobalt was the langugage of the past - then all the cobalt engineers died out
+If we arrive at a world where AI can close it's own loop on design -> implementation -> analysis then how do we as humans stay on top of it
+What if AIs invent their own programming or other language? How will humans deciper it? Already evidence of this with Openclaw agents communicating with each other
+
 ---
 
 ## The Subagent Layer (Section III / VI)
