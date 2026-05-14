@@ -44,6 +44,8 @@ What changes is the other party to the contract is now a machine that can actual
 
 "Why optimise to maintain your old output rate? You should be terrified of your competitors who aren't."
 
+"Are we in the era of EaC? Everything-as-Code?"
+
 ---
 
 ## The Continuity Argument (Section II material)
@@ -311,3 +313,10 @@ You always did. You just didn't know that was the job."
 4. Legal section — needs genuine legal research, not just opinion
 5. "New employee" argument — own section or inside VI?
 6. Kyndryl framing — how explicit in a public paper?
+
+## CHRIS' THOUGHT
+
+Watching an LLM at work is like magic. The leap between 2025 and 2026 is almost unfathomable - seeing Claude spin up agents, subagents, testing harnesses, producing it's own test plans, iterating, sending out subagents to gather data and so on, in real time, from a single prompt is insane. It gives me pause for thought around everything that Claude for example is doing under the hood. The critical ingredient for an enterprise is scope, repetitions, corporate guardrails... methodology is the moat is still true. To be able to ensure that every Kyndryl produces the same standard of output at the end, the entire harness, subagents and process etc needs to be uniform. There is a huge amount of thought and effort that needs to go into producing all of this stuff.
+I am reading more and more about "Harnesses" and there is a knowledge gap for me, here. It feels like the marketable, actionable "product" for an enterprise is developing some kind of harnessing platform for whatever tasks it's varying employees need to do. Network architects e.g. should be able to call on, trigger and use different processes, harnesses, subagents etc than maybe a developer or sysadmin. But Kyndryl can produce all of this for their employees and use it to make them lightning fast, accurate, PROACTIVE and reactive to their clients.
+The research and thinking I did around the Palo Alto / Kyndryl Competitor alliance for Glasswing identified that Kyndryls limitation is a lot of their agentic AI and public AI efforts (Kyndryl Bridge e.g.) are REACTIVE things. They are used to help identify problems and issues more quickly - the whole point of the PA/Glasswing alliance is it is a PROACTIVE, take-to-market collaboration - something they can actively market and sell that is PROACTIVE. They are developing an offering. The offering is around lightning fast, automated, actionable security and vulnerability services.
+Kyndryl need to adopt a similar, proactive approach. Something they can take to market and OFFER which differentiates them and positions them in the new world. Need to think about where this goes in the whitepaper if at all, and how to articulate it correctly. There is an entirely new type of employee and skillset needed here - and some niche skills and areas and ways of thinking are going to start to bleed into every divison of the business. In fact that is a seed / expression idea which I will document. Are we in an age of EaC? Everything-as-Code?
