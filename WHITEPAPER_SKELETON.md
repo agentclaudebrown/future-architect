@@ -179,6 +179,20 @@ LAYER 3 — LEGAL / STATUTORY:
 
 ---
 
+### V.5 THE WRONG RESPONSE (proposed — see v0.2 in VERSION LOG)
+*Target: TBD*
+
+**Job:** Bridge between V and VI. Reject the wrong instinct (restriction/banning)
+on the way to the right answer (formalisation/methodology).
+
+**The argument:** Kyndryl and others treating AI as a threat, discussing laptop lockdowns.
+The diagnosis (chaotic outputs) is correct. The prescription (ban the tools) is fatal.
+Same pattern as Kodak, Blockbuster, Nokia.
+
+**Full material in SEEDS.md under "The Wrong Response" heading.**
+
+---
+
 ### VI. THE NEW METHOD
 *Target: ~3,000 words*
 
@@ -257,3 +271,14 @@ Drumbeat close. Land one beat after the emotion, not on it.
 
 v0.1 — April 2026 — Initial skeleton formalised from conversation with Claude Sonnet 4.6.
                      Seven movements agreed. Thesis working. Open questions documented.
+
+v0.2 — April 2026 — New section proposed between V and VI.
+                     Working title: "The Wrong Response — Why Banning AI Is The Same Mistake Kodak Made"
+                     Rationale: Kyndryl exec-level intelligence revealed leadership treating AI as threat,
+                     discussing employee laptop lockdowns rather than formalisation. This section bridges
+                     V (why governance matters) and VI (what right governance looks like) by rejecting
+                     the wrong instinct on the way to the right one.
+                     Structure now EIGHT movements. Full material captured in SEEDS.md.
+                     Key reframe: audience implication — Kyndryl executives elevated from secondary to
+                     critical audience. Paper becomes strategic intervention, not just thought leadership.
+                     Status: AGREED in principle. Formalise placement and word count on next full review.
