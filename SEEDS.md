@@ -475,3 +475,8 @@ Human Architect (Orchestrator / CEO)
 8. Kyndryl Bridge — in white paper or framework document?
 9. Agent SDK / platform layer — where does it sit?
 10. COBOL / loop closure problem — Section III or V?
+
+Chris thoughts:
+at enterprise level really need to think about switching costs (switching from one platform or product to another) and this will be heavily influenced by the use cases you are looking to switch. regular chat style LLM is easy to switch. Integrated products and connectors etc is not 
+
+this is not a change in line with the industrial revolution or the dot con era / commoditization of the Internet that spun up entire new industries. this is more like a supercharging of the existing IT industry for now
