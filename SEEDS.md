@@ -558,3 +558,16 @@ Open Section II ("How Methodologies Became Moats") with Nadella. Let the most po
 enterprise software make the setup move — human capital and token capital, the compounding
 learning loop — then pivot: "He's right. But he's describing the what. Nobody is describing
 the how. That's what the rest of this paper is for."
+---
+
+## 27. Chris's Thoughts — Switching Costs & "Supercharge, Not Replace" (added via web, May 2026)
+
+**Switching costs scale with integration depth:**
+"At enterprise level really need to think about switching costs (switching from one platform or product to another) and this will be heavily influenced by the use cases you are looking to switch. Regular chat style LLM is easy to switch. Integrated products and connectors etc is not."
+
+→ Connects directly to Nadella's "sovereignty test" (Section 26) and the methodology-as-moat argument. The deeper the integration — connectors, agents, embedded workflows — the higher the switching cost, and the stronger the incumbent's moat. A chat LLM is a commodity you swap in seconds. An agent fleet wired into a customer's network, carrying three years of accumulated context, is not. This is the rebid argument from the cost side: switching cost IS the moat, and it's measured in integration depth.
+
+**This is a supercharge, not a new-industry revolution (important counterweight):**
+"This is not a change in line with the industrial revolution or the dot con era / commoditization of the Internet that spun up entire new industries. This is more like a supercharging of the existing IT industry for now."
+
+→ A deliberate check on the bolder "sea change" framing elsewhere in this doc. The industrial revolution and the internet created entirely new industries that didn't exist before. Agentic AI, at least for now, is doing something different — massively amplifying the IT industry that already exists. This matters for the paper's credibility. The claim isn't "everything is new." The claim is "the existing work gets supercharged, and the people who learn to wield it win." More defensible, harder to dismiss as hype. Keep this tension visible in the paper — it's the line between a practitioner's sober argument and a breathless LinkedIn post.
