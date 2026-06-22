@@ -226,6 +226,11 @@ Sources: blog.barrack.ai, paddo.dev, particula.tech.
 
 **Data points:** Deloitte 2026: orgs with RACI models resolve incidents 54% faster, face 41% lower regulatory scrutiny. Gartner: 71% of enterprises lack formal agent governance; 64% plan to increase autonomy within 12 months.
 
+**Non-determinism breaks the foundational contract of enterprise IT (Issue #1):**
+Enterprise IT was built on determinism. Same input, same output, every time. That assumption is load-bearing — it's what a config *is*, what a test suite asserts, what an audit relies on, what a runbook promises. Agentic AI breaks that contract at the root: AI is non-deterministic by design, so no two runs are guaranteed identical. Two identical requests can produce two different results.
+
+For most of the industry that's an annoyance. For a *managed service* — where the contract is explicitly consistent, repeatable, auditable outcomes — it's existential. You cannot sell a guarantee on top of a system that can't make one. This loops straight back to the thesis: if the machine cannot guarantee determinism, the human providing judgment and sign-off is not overhead — they are the thing *restoring the guarantee the customer is paying for*. Non-determinism is precisely why the throat-to-choke has to exist. The human is the determinism layer.
+
 ---
 
 ## 14. Real-World Evidence
@@ -298,6 +303,11 @@ Marcus Hutchins flagged: Anthropic estimated ~$20K for BSD exploit work (token c
 "The token is the new oil. And we haven't had the 1973 embargo yet."
 
 Implications: every enterprise AI business case built on artificial floor. If inference reprices, every ROI model needs rewriting. The methodology moat gets STRONGER at higher costs — disciplined workflows waste fewer tokens.
+
+**The subsidy is customer capture, not generosity (Issue #2, June 2026):**
+Token economics are already shifting (June 2026). The oddity worth naming: providers are subsidising usage while themselves unprofitable. That looks strange until you read it correctly — it isn't generosity, it's land-grab. The race is to capture users, not to turn a profit yet. This is the Uber/Amazon playbook: burn capital to own the user, reprice once they can't leave.
+
+This connects directly to the switching-cost argument (Section 27). The subsidy and the switching cost are the same strategy seen from two ends: get them in cheap, integrate deep, lock them in — and at that point the price is no longer a price, it's a ransom. For an enterprise building on subsidised tokens today, the exposure is double: the floor is artificial *and* the integration depth that makes AI valuable is the same thing that traps you when the floor moves. The defensible position is to own the methodology and the institutional knowledge (the model-agnostic layer, per Nadella's sovereignty test) so the thing you're locked into is *yours*, not a vendor's meter.
 
 ---
 
@@ -435,6 +445,10 @@ Chris's note on this: "There is a huge amount of thought and effort that needs t
 
 "An AI without a human orchestrator isn't just ungoverned — it's undirected."
 
+"The human is the determinism layer."
+
+"The agent doesn't poll the device. It reads the diary."
+
 ---
 
 # STRUCTURAL NOTES
@@ -571,3 +585,27 @@ the how. That's what the rest of this paper is for."
 "This is not a change in line with the industrial revolution or the dot con era / commoditization of the Internet that spun up entire new industries. This is more like a supercharging of the existing IT industry for now."
 
 → A deliberate check on the bolder "sea change" framing elsewhere in this doc. The industrial revolution and the internet created entirely new industries that didn't exist before. Agentic AI, at least for now, is doing something different — massively amplifying the IT industry that already exists. This matters for the paper's credibility. The claim isn't "everything is new." The claim is "the existing work gets supercharged, and the people who learn to wield it win." More defensible, harder to dismiss as hype. Keep this tension visible in the paper — it's the line between a practitioner's sober argument and a breathless LinkedIn post.
+
+---
+
+## 28. The Network as a Markdown Repository (Issue #3) — The Mechanism Behind the Living Wiki
+
+This is the mechanism the "living Wiki" (Section 15) was always reaching for but never named. Chris's framing: "If absolutely everything is captured through markdown files, the whole network becomes an interrogable encyclopedia for LLMs, complete with dates and timelines for actions — particularly if standardised forms of markdown are produced as part of every change or documented action on the network."
+
+**The shift in mental model:** Today the network is a thing you *query with tools* — you poll a device, you run a show command, you get a snapshot. In this model the network becomes a thing you *read*. Every change, every action, every state transition emits a standardised markdown artefact. The result is a continuous, timestamped, plain-language history of the entire estate — written natively in the format LLMs consume best.
+
+The agent doesn't interrogate the device. It reads the diary.
+
+**Why markdown specifically is the right substrate:**
+- Diffable — you can see exactly what changed between two points in time
+- Version-controllable — the whole network history lives in git, branchable and auditable
+- Human-readable AND machine-ingestible at once — no translation layer, no parsing brittle CLI output
+- Standardised forms mean every change of a given type produces an identical shape of record — consistency the agents can rely on
+
+**Connections across the doc:**
+- Section 15 (living Wiki / rebid): this is *how* the institutional knowledge actually accumulates. The markdown repository IS the living Wiki, made concrete. The rebid moat is three years of the network's own diary that the competitor can't reconstruct.
+- Section 23 (Everything-as-Code): this is EaC taken to its endpoint — the network doesn't just get configured as code, it *describes itself* as code, continuously.
+- Section 20 (Bridge): the assessment crawl produces these artefacts on day one; the managed service keeps producing them forever. The diary starts at onboarding and never stops.
+- Section 13 (non-determinism / accountability): a complete timestamped action history is also the audit trail. Every agent action documented as it happens is the traceability leg of Meaningful Human Control.
+
+**The line worth keeping:** The agent doesn't poll the device. It reads the diary.
