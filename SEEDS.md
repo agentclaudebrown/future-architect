@@ -489,6 +489,7 @@ Human Architect (Orchestrator / CEO)
 8. Kyndryl Bridge — in white paper or framework document?
 9. Agent SDK / platform layer — where does it sit?
 10. COBOL / loop closure problem — Section III or V?
+11. Network-as-markdown (S28) + GitOps/network-as-code (S29) — where do these sit? Likely Section VI (The New Method) as the concrete run-state mechanism, with the "discipline not tooling" failure data reinforcing Section V. Decide during drafting.
 
 
 ---
@@ -609,3 +610,81 @@ The agent doesn't interrogate the device. It reads the diary.
 - Section 13 (non-determinism / accountability): a complete timestamped action history is also the audit trail. Every agent action documented as it happens is the traceability leg of Meaningful Human Control.
 
 **The line worth keeping:** The agent doesn't poll the device. It reads the diary.
+
+**The loop completes in Section 29 — but it is NOT a naive circle.** Section 28 is the *read* side (observed state → git, the network keeps its diary). Section 29 is the *write* side (git → network, the repo issues the orders). The correction from the network-automation industry: these two must stay distinct stores. Desired state and observed state are different things. The value isn't that they're the same record — it's the *diff between them*. That diff is drift.
+
+---
+
+## 29. GitOps & Network-as-Code — The Write Side of the Loop (research deep dive, June 2026)
+
+This is the other half of Section 28. Section 28 was the network *writing its own diary* (observed state flows into git). This is git *issuing the orders* (desired state flows out to the network). Same repository discipline, opposite arrow. Together they close the loop — but the loop is two arrows pointing at a gap, not a circle. The gap is where the architect lives.
+
+### The theory: GitOps (mature, proven — in cloud)
+
+GitOps was formalised by Weaveworks (Alexis Richardson, 2017) and standardised by the CNCF OpenGitOps project (opengitops.dev). Four principles:
+1. **Declarative** — the desired state of the whole system is expressed as a set of facts, not a sequence of instructions. You declare what good looks like; the automation works out how to get there.
+2. **Versioned and immutable** — that desired state lives in git: complete history, authorship, rollback by reverting a commit.
+3. **Pulled automatically** — software agents pull the declared state and apply it.
+4. **Continuously reconciled** — agents constantly compare live reality against the declared state and correct drift.
+
+The arrow that matters: today the live network is the truth and documentation is a stale description of it that starts rotting the moment it's saved (the as-built accurate for one afternoon). GitOps flips the arrow. **The repo becomes the intended state; the live network is forced to match it.** Config drift detection (Section 15) stops being a monitoring tool and becomes the enforcement mechanism: the drift IS the diff between repo and reality.
+
+Human approval of a change to the repo — the pull request / merge request — is the moment of Meaningful Human Control (Section 13). The throat-to-choke, captured as a timestamped commit with a name against it. PR-based approval = documented evidence of MHC, for free, as a by-product of the workflow.
+
+Push vs pull models: push (CI/CD pipeline applies changes after commit — simpler, but the pipeline needs direct production access) vs pull (an agent inside the environment watches git and pulls changes — more secure, more autonomous). Hybrids emerging in large orgs.
+
+### The reality: network-as-code is real but far less mature than cloud GitOps
+
+The tooling exists and is genuinely multi-vendor (Cisco, Juniper, Arista today):
+- **NetBox** — the widely-adopted network Source of Truth (DCIM + IPAM). Strong API, webhooks. But limited native GitOps features (no real branching/versioning of its own).
+- **Nautobot** — a fork of NetBox built for exactly this: native Git integration, branching, drift detection, a Jobs framework, RBAC, approval workflows, audit trails. The GitOps-native SoT. Customers managing 100,000+ devices. Sponsored by Network to Code.
+- **Ansible / AWX** — execution layer. Git branches by vendor, webhooks trigger jobs, PRs gate changes into production. NAPALM / Netmiko for device interaction.
+- **Infrahub** — newer SoT entrant, also in the comparison set.
+- Pattern (from Itential's analysis): design intent flows SoT → automation; operational state flows discovery → SoT; config state flows git/Ansible → SoT; change context flows ITSM → SoT.
+
+### The critical correction — this REINFORCES the thesis, doesn't undermine it
+
+The single most important finding, and the thing that keeps Section 28's loop honest: **avoid bidirectional synchronisation; avoid multiple systems claiming write authority for the same data.** Desired state and observed state must be kept distinct. A naive "one repo that both records reality and dictates it" creates conflicts and rots. The architecture is two stores and a diff, not one magic circle.
+
+And the honesty layer the paper MUST carry (or get caught by the one person in the room who's tried it):
+- ~**25% of teams abandon Git-native network workflows due to complexity** (Itential, 2026)
+- **60% of documentation/SoT projects fail**; SoT accuracy drops to **15–30% without automated synchronisation**
+- Data-quality issues affect ~22% of automation projects
+- The unanimous verdict across every source: **"It's not a tooling problem, it's a discipline problem."**
+
+That last line is the entire white paper, handed over by the network-automation industry in its own failure statistics. They built the tools. The tools work. They still fail ~three-quarters of the time at the hard end — because nobody owns the discipline. The gap between "the tools exist" and "the tools deliver" is exactly the methodology, governance, and human-accountability layer this paper describes. **The market proved the thesis in its own failure data.**
+
+### The build-to-run handover, solved
+
+The handover is normally a cliff: the team who knows everything walks, the team who knows nothing inherits stale docs. If the repo is the source of truth, there is no knowledge handover because the knowledge was never in anyone's head — it's in the repo, with every decision that led to it sitting in the commit history above it. The run team inherits the network's live source of truth, not documentation about it. The repo IS the institutional memory. Same conclusion as the rebid moat (Section 15), reached from the engineering side instead of the commercial side.
+
+### GitHub as the programme substrate (Chris's framing)
+
+GitHub has historically been a narrow tool — software development. Extrapolating from Section 28: you can run an entire network architecture *programme* through GitHub, and by its design it gives you a timestamped, complete history of the whole programme of work. Meetings, decisions, drafts, config — all captured chronologically.
+
+The text-vs-binary boundary defines the split (and it's a property of the materials, not an arbitrary choice):
+- **GitHub gives full version history on everything, but X-ray (line-by-line diff) vision only on TEXT.** Markdown, config, YAML, code = glass boxes you watch evolve. Word/PowerPoint/Excel/images/PDF = sealed boxes with dates on them (stored and versioned, but no internal diff).
+- So: **SharePoint/OneDrive holds what humans read** (final LLDs, diagrams, polished deliverables — binary, presentation-grade, access-controlled). **GitHub holds what the system *is*** (the technical substrate: drafts, captured thoughts, transcripts-as-text, decisions, and crucially configuration).
+- This opens the door to managing the live network from the same config files in the repo — i.e. GitOps — so the programme repository and the run-state control plane become the same thing.
+
+### Cross-links
+- Section 28 (network as markdown repo): the read side. This is the write side. Two arrows, one gap.
+- Section 15 (config drift / living Wiki / rebid): drift detection becomes drift *enforcement*; the repo is the institutional memory.
+- Section 13 (accountability / MHC / non-determinism): the PR approval is documented MHC; the commit history is the audit trail; git versioning is a partial answer to the determinism problem (the desired state is deterministic even if the model that authored it isn't).
+- Section 23 (Everything-as-Code): this is EaC's operational endpoint.
+- Section 20 (Bridge): assessment populates the SoT; managed service runs the reconciliation loop.
+
+### Sources / reading for this section
+- CNCF OpenGitOps principles — opengitops.dev
+- Weaveworks origin — weave.works/blog/gitops-operations-by-pull-request
+- CNCF glossary entry on GitOps
+- Nautobot / Network to Code — networktocode.com (GitOps-native network SoT)
+- NetBox — DCIM/IPAM SoT
+- Itential, "Network Source of Truth Platforms" (May 2026) — the 25%-abandon / discipline-not-tooling data
+- Cisco DevNet, Nexus-as-Code with NetBox + Ansible
+
+### Lines worth keeping
+"The repo isn't a record of the network. The repo IS the network — and the live network is forced to match it."
+"They built the tools. The tools work. They still fail three-quarters of the time — because nobody owns the discipline. That gap is the job."
+"SharePoint holds what humans read. GitHub holds what the system is."
+"There's no knowledge handover, because the knowledge was never in anyone's head. It's in the repo."
