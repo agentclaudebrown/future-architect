@@ -61,6 +61,7 @@ Working target: 15,000 words. Hard ceiling 20,000. (Carried from v0.1 — revisi
 - §5 The continuity argument (carrier pigeon → email; SDN; AWS; API; agentic AI). The spine of the movement.
 - §4 Full thesis statement.
 - §16 The methodology IS the moat — woven through, not bolted on. The "method was the product, people interchangeable" point.
+- §30 The methodology as the ARCHITECT'S OWN moat — against the tool itself, not just competitors. The knowing-what-work-to-do that AI can't have because it's taught, not documented. This is Movement II's emotional/intellectual core and the direct answer to "why doesn't AI replace you." Pair with §16 (firm's moat) but keep the altitudes distinct — §30 is individual/existential, §16 is organisational/commercial.
 - §2 The IBM Architectural Thinking parallel — history of method-as-differentiator. (Public-paper-safe: it's IBM, not Kyndryl. Use it.)
 - §26 Nadella — the "human capital / token capital," "compounding learning loop," "hill climbing machine," "offload a task but never your learning," sovereignty test. Use as external validation that the premise is now conventional wisdom — THEN pivot to "he described the what; nobody's described the how." This is the hinge that makes the rest of the paper necessary.
 - §10 The meta-observation (the paper built using the method it describes) — optional, powerful if placed well. Possibly a sidebar/aside rather than main flow.
