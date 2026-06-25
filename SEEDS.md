@@ -688,3 +688,34 @@ The text-vs-binary boundary defines the split (and it's a property of the materi
 "They built the tools. The tools work. They still fail three-quarters of the time — because nobody owns the discipline. That gap is the job."
 "SharePoint holds what humans read. GitHub holds what the system is."
 "There's no knowledge handover, because the knowledge was never in anyone's head. It's in the repo."
+
+---
+
+## 30. The Methodology Is the Architect's Moat — Against the Tool Itself (Movement II core)
+
+Distinct from §16. Section 16 makes the *organisational* case: the method is the firm's product, people are interchangeable, IBM owned it, Kyndryl lost it in the spinoff, rebuild it. That's methodology as a moat against *competitors*.
+
+This is the deeper claim, one level down: methodology is the individual architect's irreducible skill — the moat against *the tool itself*. It is the direct answer to "why doesn't the AI just replace you."
+
+**The argument:**
+AI tooling accelerates the work. It can execute any step you can specify. What it cannot do is tell you *which* steps, in *what* order, what to interrogate, what a good answer looks like, and when an answer smells wrong. Knowing how to run an architecture engagement — what questions to ask, in what sequence, what to push on, what outputs and deliverables actually need to exist — is itself the expertise. It is taught to an experienced architect over years; it is not a document and it does not transfer to the model. Think of this like being "good" at optimizing Google searches before AI existed. People had the same tool - but some were better at finding what they needed than others.
+
+The AI can do the work. It cannot do the knowing-what-work-to-do. That knowing is the methodology, it lives in the architect's head, and it is exactly the part fifteen years builds and a prompt can't.
+
+**Why this is arguably the true centre of the thesis:**
+Everyone's fear is "the AI does the work, so I'm redundant." This reframes it: the work was never the moat. The judgment about the work was. The tool eats the execution layer and leaves the judgment layer untouched — and the judgment layer is where the architect always actually lived. "The ideas don't change, the substrate does" (§4), applied to the person rather than the technology: the substrate of execution changed, the methodology of knowing did not.
+
+**Evidence already in SEEDS (currently sitting unconnected — this is the principle they're instances of):**
+- §3 GymOS: Chris discovered the governance need the AI never surfaced. The human supplied the knowing-what-matters the tool had no way to generate.
+- §25 Harnesses: the harness is methodology made executable — it encodes which agents, which tasks, which governance, which outputs. Building the harness IS the methodology; pointing it at a problem is the easy part.
+- §3 The Juniper/Checkpoint "argue back at the agent" point: the experienced architect validates and redirects because they know what right looks like. Joe Bloggs with the same tool cannot.
+
+**The distinction to keep sharp (so §16 and §30 don't blur):**
+- §16 = the firm's method is a moat against rival firms (commercial, organisational).
+- §30 = the architect's method is a moat against the tool itself (individual, existential — the answer to obsolescence).
+Both true. Different altitudes. The paper needs §30 for Movement II's emotional core and §16 for Movement IV's strategic payoff.
+
+**Lines worth keeping:**
+"The AI can do the work. It cannot do the knowing-what-work-to-do."
+"The work was never the moat. The judgment about the work was."
+"It's taught, not documented. That's exactly why the tool can't have it."
