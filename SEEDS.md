@@ -870,3 +870,35 @@ Movement III (the honest middle) as a complication — the pipeline problem is o
 "The skills persist. The substrate changes."
 "The human in the loop has to actually become the human in the loop — not a signature at the end, but the judgment throughout."
 "If the ladder is gone, the method is the only way the profession reproduces itself."
+---
+
+## 35. The Scope Fence — What This Paper Is, and What the Follow-On Papers Are (SETTLES SEVERAL OPEN QUESTIONS)
+
+A clean boundary, arrived at after the Kyndryl Academy week. It resolves the recurring problem of material that is clearly valuable but keeps bloating the paper.
+
+**THIS PAPER: the role itself.**
+How and why the future architect should exist. What the human does, what they delegate, where the interlock sits, how the boundary is guardrailed, what judgment cannot be handed over, and what the company must publish so the practice is repeatable. The subject is the practitioner and the method.
+
+**FOLLOW-ON PAPERS: the enterprise world the role enables.**
+A whole stream of enterprise tie-ins that flow FROM the role but are not the role:
+- AI tooling for future managed-service excellence
+- Automated discovery tools — crawling and documenting a customer network automatically
+- Auto-generated documentation feeding directly into the AI-enabled architecture process
+- Integrations and harnesses that pass architecture artefacts to run-time agents
+- The design-to-run handover as an automated pipeline
+- The broader subset of business processes and tooling beyond the role itself
+
+**What this fence settles (previously open, now resolved):**
+- Sec 20 (Kyndryl Bridge product concept) — FOLLOW-ON paper, not this one. May be gestured at once, never specified.
+- Sec 29 (GitOps / network-as-code tooling depth) — principle only in this paper; the tooling, the Nautobot/NetBox detail, the implementation is follow-on.
+- Sec 25 (harnesses) — the PRINCIPLE of role-scoped governed tooling belongs here because it is part of the role; the harness as a built product with a spec is follow-on.
+- Sec 28 (network as markdown repository) — belongs here only insofar as it is the substrate the architect's practice runs on; the full auto-discovery and documentation machinery is follow-on.
+- Sec 15 run-state fleet detail (port monitoring, DHCP prediction, drift detection) — illustrative examples only in this paper; the managed-service capability build-out is follow-on.
+
+**Why the fence makes this paper stronger:**
+The single biggest structural risk identified so far is that the paper becomes a tool catalogue — "use agents" wearing a lab coat (Sec 32). The fence is the defence against that. Every time the material drifts toward tooling, platforms, or customer-facing capability, it belongs in the next paper. Keeping the camera on the role and the method is what makes this document a piece of thinking rather than a product brochure.
+
+It also creates a body of work rather than one document — which suits the arc already sketched in Sec 16 (white paper, framework, toolkit, training, managed service) and gives the named reader (Sec 32) something to commission next.
+
+**Line worth keeping:**
+"This paper is the role. The papers that follow are the world the role enables."

@@ -86,6 +86,14 @@ And so: the human is the determinism layer. Not overhead. The thing restoring th
 
 **The honest caveats**, which you insisted on and which will do more for your credibility than any of the confident parts. Token economics are subsidised by capital that is not yet seeking a return, which means nobody knows what a token really costs — the token is the new oil and the 1973 embargo hasn't happened yet. The subsidy isn't generosity, it's customer capture; get them in cheap, integrate deep, and the price stops being a price and becomes a ransom. And your own governor on the whole thing: this is not the industrial revolution. It is not the internet spawning entirely new industries. For now it is a supercharging of the IT industry that already exists. That sentence is what stops the paper reading like everything else on LinkedIn.
 
+**And then the deepest one, which only became clear at the conference.** If AI takes the front-line work — the junior developers, the network engineers, the people producing the LLDs and the configs and the first-pass discovery — then where does the next senior architect come from? You cannot go from college to senior network architect. You earn your scars, and the ladder that produces them is the ladder AI is quietly dismantling.
+
+The COBOL parallel is exact, and sharper than it first appears. We never ran out of COBOL code. We ran out of COBOL engineers. The artefact survived; the humans who understood it were never replaced, and institutions were left holding systems nobody could read. The same shape is forming here. The outputs will keep being produced. The supply of people who understand why they are right is being cut off.
+
+Which makes this more than a careers problem. It is a supply chain problem for judgment itself. The moat is knowing what to interrogate and when an answer smells wrong — and that is earned, not documented. Break the pipeline and in fifteen years nobody is left who knows to stop and say we need a decision log before we go any further. A model cannot supply that, because a model has never had a project go wrong.
+
+Which is exactly what the gym app demonstrated. The agents executed well. They also trusted themselves to keep track of everything, and in places didn't. It never occurred to any of them to build governance, because none of them had ever been burned. You knew, because of sixteen years, and so you instructed it. Sixteen years of experience arriving as a single instruction the machine could not generate. And because that governance now exists, anyone — or anything — can walk in, read the documentation, and follow the reasoning and the decisions and the code from beginning to end. You built the machine-readable methodology months before you had a name for it.
+
 ---
 
 ## VI. The wrong answer, and why naming it matters
@@ -141,6 +149,12 @@ The individual one — which you only articulated properly a few days ago, and w
 
 One is commercial. One is existential. The paper needs the second to answer the fear, and the first to answer the executive.
 
+And there is a third thing the moat does, which only becomes visible once you put it next to the pipeline problem. If the apprenticeship is genuinely collapsing, then the published methodology stops being merely a competitive advantage and becomes the replacement for the apprenticeship itself. Writing the method down — explicitly, teachably, in a form both a person and a machine can read — is the only remaining mechanism for manufacturing judgment at scale once the ladder is gone.
+
+That changes what you are actually proposing. It is no longer "here is a better way to work." It is "here is how the profession reproduces itself." And it converts the argument for investing now from an efficiency case into something closer to an obligation: the cost of not doing it isn't slower delivery, it's a generation of architects who never get made.
+
+The counterargument is real and you should make it before anyone else does. Documented method probably isn't a full substitute for scars. Scars come from consequences — from being the one who took the call, not from reading about the call. A decision log transmits the what and the why. It does not transmit the fear. The most honest resolution available is that the method doesn't replace experience, it compresses the time to acquire it: a junior working inside a well-instrumented methodology, with visible decision trails and agent output to critique, may earn their scars faster than one who spent three years drawing diagrams by hand. That is a claim, not a proof. Leave it standing as a claim.
+
 ---
 
 ## X. The world caught up, repeatedly, and it kept helping you
@@ -168,6 +182,10 @@ That question is the paper. Not "architects should use AI," which is worthless b
 And it has a reader. An actual person whose job is to determine what every role in the company becomes in the AI era. Which gives you a test sharper than any structural advice: would this passage help *that* man do *that* job? If not, cut it.
 
 The failure mode to fear is not being too specific. It's specificity of the wrong kind — a catalogue of agents and outputs, which is just "use AI" wearing a lab coat. Keep the camera on the method and the human running it. The deliverables are evidence, not subject. The agents are plumbing.
+
+The fence that protects against that drift is the one you drew last: this paper is the role. The papers that follow are the world the role enables. Automated discovery crawling a customer estate and documenting it. Harnesses passing architecture straight to run-time agents. The tooling for managed-service excellence. The design-to-run handover as a pipeline. All of it real, all of it valuable, none of it this document. Every time the material starts drifting toward platforms and capability, it belongs in the next paper.
+
+That fence does two useful things at once. It keeps this paper about the practitioner, which is the only thing that makes it a piece of thinking rather than a brochure. And it turns one document into a body of work — which is exactly what you hand to a man whose job is to work out what every role becomes, because it gives him something to commission next.
 
 ---
 
