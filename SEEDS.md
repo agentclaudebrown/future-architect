@@ -900,5 +900,32 @@ The single biggest structural risk identified so far is that the paper becomes a
 
 It also creates a body of work rather than one document — which suits the arc already sketched in Sec 16 (white paper, framework, toolkit, training, managed service) and gives the named reader (Sec 32) something to commission next.
 
+**REFINEMENT — the one rule that replaces the list above (Chris, June 2026):**
+The fence is not "Bridge is out." It is a single rule applied uniformly:
+
+**In this paper, ALL tooling — customer-side, Kyndryl-side, third-party — appears only as a SOURCE OF CONTEXT feeding the architect's judgment. Never as subject.**
+
+Bridge appears the way a CMDB appears, or existing customer documentation, or three years of incident tickets: as context the practice consumes. Chris's own framing: "it is just a data source that enables valuable architectural processes during an engagement, the same as any other."
+
+This is the same principle as Sec 31 (the deployed-product arrow appears only as INPUT to the practice), extended from customer-deployed systems to internal tooling. One rule, uniformly applied.
+
+**Why "just a data source" is a STRENGTH, not a diminishment:**
+It keeps the methodology TOOL-AGNOSTIC. The method does not depend on Bridge existing. If Bridge is deprecated, replaced, or the customer is not on it, the method survives — the architect wires in a different context source. This is Nadella's sovereignty test (Sec 26) applied to internal tooling: you should be able to swap the tool without losing the practice.
+
+A methodology that requires a specific product is a product manual. A methodology that treats products as interchangeable inputs is a methodology.
+
+**The genuinely IN-SCOPE question hiding here (this is methodology, not tooling):**
+Which context sources feed which agents, under what guardrails, and how does the architect VALIDATE what comes back?
+
+An agent retrieving three years of historical customer knowledge is producing an assertion the architect must be able to challenge: is this current, is it complete, does it reflect what actually happened or only what was documented, does it square with what the customer said in the room last week. That is the "argue back at the agent" point (Sec 3) applied to context rather than configuration. Core to the interlock. Firmly in this paper.
+
+**The line the fence actually draws:**
+- What the architect CONSUMES, and how they validate it — IN.
+- What the tool IS, and how it gets built — OUT (follow-on papers).
+
+**Note on the public vs internal versions:**
+The fence applies to both. Tool-as-subject is out of both. Tool-as-context-source can be named in the internal version (Bridge, by name) and genericised in any public derivative ("native tooling carrying historical customer knowledge") without changing the argument at all — which is itself proof the method is tool-agnostic.
+
 **Line worth keeping:**
 "This paper is the role. The papers that follow are the world the role enables."
+"It is just a data source, the same as any other. That is not a limitation of the method. It is the proof of it."
