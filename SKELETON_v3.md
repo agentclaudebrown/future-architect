@@ -9,11 +9,23 @@
 
 ## THE FRAME (settled — everything obeys this)
 
-**Reader:** A named Kyndryl executive whose job is to determine what every role and process in the company becomes in the AI era. Not a generic CTO. A specific man with a specific remit and budget. (SEEDS Sec 32)
+**GENRE — decided, and it governs everything (Chris, June 2026):**
+This paper is a DEFINITION, not a proposal. It defines what the architect role now is, in the world we are actually in. It does not ask for a change, a budget, or a mandate.
 
-**Test for every passage:** Would this help THAT man do THAT job? If not, cut it.
+Why this is the stronger choice: a proposal expires with the decision cycle of the person asked, and outside the company it reads as internal politics published by accident. A definition persists. It survives reorganisations, it is useful to a peer at any other firm who will never care about internal budgets, and it gives an internal reader something to POINT TO rather than merely approve — an asset, not a memo.
 
-**The ask:** A commission backed by a working prototype. Not "let me pilot this" — the harness exists and produces real deliverables on real work. The ask is: make this methodology central, own it, resource it, and use the architect role as the template for the others. Asking permission to prototype something already prototyped weakens the position.
+Precedent: this is exactly the move Kyndryl made with the Human Systems Architect. They did not lobby for a role; they defined one and published it. This paper does the same for the architect, which is why the two documents sit naturally beside each other rather than arguing.
+
+**Readers (plural — one text, several altitudes):**
+- The practising architect / peer, at any firm. Must find it thought-provoking and true to the work.
+- The executive who decides what roles become — internally and at any other company.
+- The paper must survive OUTSIDE the author's employer. It must stand up to external publication.
+
+**Vantage point, not subject:** Written from inside a managed services business because that is where the author works. Company specifics are ILLUSTRATION, never subject. Any reader at any systems integrator should recognise their own house. Name the employer sparingly or not at all; the argument must not depend on it.
+
+**Test for every passage:** Would a peer architect at a company I have never worked for find this true and useful? If it only works inside one company, it is the wrong paragraph.
+
+**The ask lives OUTSIDE the paper.** The paper defines; a covering note or executive summary carries the ask, tailored per recipient. This lets the same document go to five different people with five different asks, and keeps the published argument clean. The working prototype (the existing harness and its real deliverables) is EVIDENCE inside the paper, and becomes the basis of the ask in the covering note.
 
 **Length:** Whatever the argument earns. No target. A separate 1-page executive summary handles attention; the paper itself does not compromise for it. Every word earns its keep.
 
@@ -33,13 +45,14 @@
 
 ## OPENING — THE QUESTION NOBODY ANSWERED
 
-**Job:** Open on the patient-zero question. Not the existential "your work is going away" provocation — that one is built for the peer architect, not this reader. For him the provocation is that we sell this discipline to customers and have never turned it on ourselves. Uncomfortable, fair, and a question already asked out loud in a room with no good answer.
+**Job:** Open on the patient-zero question, generalised to the industry. The whole sector sells AI transformation to customers and has barely turned it on itself. That is a broader and fairer indictment than one company's, it works for any reader at any firm, and it still lands hardest with people who work where the author works.
 
 **Must establish, briefly:**
-- The context: the company positions itself as the AI IT consulting company, applying AI to customers' processes with measured outcomes
-- The question: are we patient zero? Are we applying it to ourselves?
-- The promise: here is what patient zero looks like for one specific role, done properly
+- The context: the industry positions itself as applying AI to customers' processes with measured outcomes
+- The question: are we patient zero? Is anyone applying this to their own delivery practice?
+- The promise: here is what that looks like for one specific role, defined properly
 - The fence, stated early so the reader knows what this is and is not: this is about the role, not the tooling
+- The genre, made clear early: this defines a role that already exists but has not been named. It is not asking for anything.
 
 **SEEDS material:** Sec 32 (patient zero, the plenary, the named reader), Sec 31 (practice vs product), Sec 35 (fence, one line only), Sec 33 (customer zero is already company language — use it, do not over-explain it yet)
 
@@ -134,7 +147,9 @@
 
 ## PART V — THE COST OF NOT DOING THIS
 
-**Job:** Create urgency immediately before the ask. Every complication in this section is a risk to the company, not an intellectual caveat. This is the section that converts agreement into action.
+**Job:** Establish the stakes. Every complication in this section is a real-world risk — to a firm, to a profession, to the reader — not an intellectual caveat. This is what makes the definition matter rather than merely being interesting.
+
+NOTE ON THE REFRAME: with the paper now a DEFINITION rather than a proposal, this section is not "what happens if you do not fund me." It is "what happens if this role is not defined and formalised — anywhere." The risks generalise cleanly: every firm has the Copilot vacuum, every firm faces the restriction instinct, every firm carries the liability, and the whole profession faces the pipeline collapse. Keep it at industry altitude; let the reader apply it to their own house.
 
 **The five costs, roughly in ascending order of severity:**
 
@@ -158,20 +173,20 @@
 
 ## CLOSE — THE ASK, THEN THE CODA
 
-**Job:** Convert the argument into a decision, then land the human note.
+**Job:** Land the definition, then the human note. NOT an ask — the ask lives in the covering note.
 
-**The ask (specific, and backed by an existing prototype):**
-- Commission the methodology for the architect role: define it, publish it, resource it, own it
-- Use the architect role as the TEMPLATE for the other roles — which is precisely the reader's remit
-- Name what already exists (the working harness, real deliverables, real engagements) — this is a commission request, not a request to prototype
-- Be concrete about what "done" looks like
+**The definition landing:**
+- State plainly what the role now is, having earned it across five parts: the human who defines the contract between intent and execution, holds the judgment and the accountability, bounds what is delegated, and works to a published method that makes the practice repeatable
+- Make clear this is a description of something already happening, not a proposal for something new. The role exists. It has not been named or formalised. That is the gap.
+- Gesture at what follows without specifying it: the method has to be built, published and taught by someone — and the papers that follow are the world this role enables (SEEDS Sec 35). Leave the reader with the obvious next question rather than answering it.
+- Do NOT ask for budget, mandate or permission anywhere in the paper.
 
 **The coda:**
 Short. Unsentimental. After the ask, not instead of it. Returns to the person rather than the business case, because a paper whose thesis is that humans are the point cannot end on a spreadsheet. Material: the Great Adaptation — the agricultural revolution did not need the best hunters, the industrial did not need the best farmers, the information revolution did not need the best factory workers; each time the people who came through held the old knowledge and reached for the new model. Closing line already exists and has survived every revision since April: "The question was never whether AI is coming for your job. The question is whether you have the right mind for the world it is building. You always did. You just didn't know that was the job."
 
 **SEEDS material:** Sec 32 (the ask, the named reader), Sec 8 (Great Adaptation, closing lines), Sec 16 (the arc beyond this paper — gesture only)
 
-**Must NOT:** Reach for the cosmic. Restate the business case in the coda. Introduce a new idea. Soften the ask by burying it under the emotional close.
+**Must NOT:** Reach for the cosmic. Restate the argument in the coda. Introduce a new idea. Turn the ending into a pitch — the definition is the payload, the coda is the landing.
 
 ---
 
@@ -186,7 +201,7 @@ Ruthlessness here is what turns "everything I know" into something read to the e
 - **Bridge as product concept (Sec 20)** — out. Follow-on paper. May appear only as an unnamed context source.
 - **GitOps / network-as-code tooling (Sec 29)** — out except the failure-rate evidence, which stays in Part IV.
 - **Palo Alto competitive teardown (Sec 19)** — probably out of the document; excellent ammunition for the conversation that follows it.
-- **Token economics (Sec 17)** — reduced to a short planning caveat in Part III. Not a section.
+- **Token economics (Sec 17)** — NOT merely a caveat. Repositioned as SUPPORTING EVIDENCE for the methodology argument in Part IV: undisciplined AI use is not only chaotic, it is expensive and unpredictably so. A defined method wastes fewer tokens than ninety thousand people improvising, and when pricing eventually corrects, the disciplined shop absorbs it and the free-for-all does not. Hard-nosed argument a finance-minded reader feels more than any of the philosophy. Kept to lines, not a section.
 - **Everything-as-Code (Sec 23)** — folded into Part IV as a phrase if useful, not a beat.
 - **Nadella (Sec 26)** — one reference in Part I as top cover and pivot. Not a section.
 - **Run-state fleet detail (port monitoring, DHCP prediction, drift detection)** — illustrative one-liners only. The capability build-out is follow-on.
@@ -206,4 +221,8 @@ Ruthlessness here is what turns "everything I know" into something read to the e
 
 ## VERSION LOG
 
-v3 — June 2026 — Rebuilt around the named internal reader and the ask, following SEEDS Sec 32 (patient zero, reader, internal-first reversal), Sec 35 (scope fence), Sec 34 (pipeline). Five parts plus opening and close, replacing v2's four movements. Complications split between urgency (Part V) and credibility (distributed). Worked example woven rather than sectioned. Cut list added.
+v3 — June 2026 — Rebuilt around the reader and the argument, following SEEDS Sec 32 (patient zero), Sec 35 (scope fence), Sec 34 (pipeline). Five parts plus opening and close, replacing v2's four movements. Complications split between stakes (Part V) and credibility (distributed). Worked example woven rather than sectioned. Cut list added.
+
+v3.1 — June 2026 — GENRE CORRECTION (Chris). The paper is a DEFINITION, not a proposal. It must stand up to external publication and be thought-provoking for peers at any firm, not only inside the author's employer. Changes: reader is now plural (peer architect anywhere + executives anywhere); employer is vantage point, not subject; the ASK is removed from the paper entirely and lives in a covering note or executive summary, tailored per recipient; opening provocation generalised from one company to the industry; Part V reframed from "cost of not funding this" to "stakes if the role is not defined anywhere"; close lands the definition rather than making a request. Token economics repositioned from caveat to supporting evidence for methodology (Part IV).
+
+NEXT: reorganise SEEDS with overlay numbering — retain original section numbers as underlay for provenance, apply new overlay numbering ordered by where material lands in this structure. Turns SEEDS from a capture log into a drafting resource.
