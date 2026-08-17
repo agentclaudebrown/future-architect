@@ -31,6 +31,18 @@ Precedent: this is exactly the move Kyndryl made with the Human Systems Architec
 
 **Scope fence (SEEDS Sec 35):** This paper is THE ROLE. Follow-on papers are the world the role enables. One rule, uniformly applied: all tooling — customer-side, Kyndryl-side, third-party — appears only as a SOURCE OF CONTEXT feeding the architect's judgment. Never as subject. What the architect consumes and how they validate it is IN. What the tool is and how it gets built is OUT.
 
+**THE THESIS (corrected — SEEDS Sec 38, supersedes all earlier phrasings):**
+The PRINCIPLES persist. The METHODOLOGY has to be REBUILT — because the new substrate makes things possible that the old method could not have imagined.
+
+Three levels, kept distinct:
+- Principles: permanent (contract between intent and execution; know what good looks like; hold the whole while others hold the parts; a human owns the call)
+- Methodology: the instantiation of those principles against what is currently possible and currently expensive. Must be rewritten each substrate change.
+- Substrate: the execution layer. Changes repeatedly.
+
+Why this matters: "the ideas do not change, the substrate does" is true but leaves a SO WHAT about AI. The answer is that every methodology encodes the constraints that were expensive when it was written. AI removes five of them (artefact cost collapses; verification replaces production as the bottleneck; point-in-time becomes continuous; non-determinism enters a deterministic discipline; uneconomic work becomes routine). A method that still assumes the old constraints is optimising for a world that has gone.
+
+Failure mode is symmetrical and documented: Klarna used the new substrate to do the old thing cheaper. Detroit had a better method available and saw no reason to change.
+
 **The distinction that makes this paper original (SEEDS Sec 31):** Everyone is writing about AI as PRODUCT — agents deployed onto customer estates. This paper is about AI as PRACTICE — how the architect works. Guard this. Every drift toward "how to deploy agents for customers" is the wrong paper.
 
 **Worked example handling:** Chris's own harness is the strongest evidence in the document. WEAVE it through Parts II–IV as proof under each claim. Do NOT give it a standalone "case study" section — that invites the dismissal "nice side project."

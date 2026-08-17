@@ -1183,3 +1183,75 @@ Do NOT present these as five case studies in a row — that reads as a history l
 "The Flight Director is not the best engineer in the room. He is the only one holding the whole of it."
 "Optimise for the vehicle, not for your system — even when it costs your system. NASA wrote that contract for humans sixty years ago."
 "What crosses a substrate change is not knowledge of the material. It is knowledge of how systems fail and how people behave inside them."
+---
+
+## 38. THE FRAME CORRECTION — What AI Actually Changes (FOUNDATIONAL — corrects the thesis statement itself)
+
+Chris spotted the hole: "the ideas don't change, the substrate does" leaves a massive SO WHAT about AI. If the methodology is the enduring thing and we already have one, why change anything? That gap had to be closed before writing the opening.
+
+**THE CORRECTED THESIS (supersedes the version in Sec 4 / A1):**
+
+**The principles persist. The methodology has to be REBUILT — because the new substrate makes things possible that the old method could not have imagined.**
+
+Three levels, and keeping them distinct is the whole answer:
+- **PRINCIPLES** — permanent. Define the contract between intent and execution. Know what good looks like. Hold the whole while others hold the parts. A human owns the call. These survive every substrate change.
+- **METHODOLOGY** — the specific instantiation of those principles against WHAT IS CURRENTLY POSSIBLE AND WHAT IS CURRENTLY EXPENSIVE. This must be torn up and rewritten every time the substrate moves.
+- **SUBSTRATE** — the execution layer. Changes repeatedly.
+
+Get this wrong and you use a new substrate to do the old shape of work slightly cheaper. That is precisely the Klarna failure (Sec 36B).
+
+---
+
+### THE PROOF IS ALREADY IN THE HISTORICAL EXAMPLES (Sec 37) — we had not read them properly
+
+In every case, the substrate change did not leave the methodology intact. It made a methodology possible that nobody could previously have imagined, let alone written down.
+
+**Venice:** frame-first was not a stylistic preference. Under hull-first, the craftsman's eye determines the shape, so no two hulls are alike, so nothing is interchangeable, so you cannot have numbered components waiting in sheds, so you cannot have specialist stations. THE ARSENAL METHOD COULD NOT HAVE EXISTED BEFORE THE TECHNIQUE CHANGED. The technique change unlocked the system change.
+
+**Boeing:** before the Model 299, aircraft were simple enough that a pilot's memory sufficed. The checklist was not a method anyone had failed to adopt — it was a method that WAS NOT YET NEEDED. The substrate became complex enough to require a discipline that had not existed.
+
+**NASA:** you cannot have a room of specialists each monitoring one subsystem in real time until TELEMETRY EXISTS. The substrate created the method.
+
+**Deming:** statistical process control requires the ability to measure a process continuously. The substrate (instrumentation, statistics applied to manufacturing) made the method possible.
+
+---
+
+### WHAT AI SPECIFICALLY CHANGES — five removed constraints
+
+Every methodology is a set of compromises against what was expensive when it was written. IBM Architectural Thinking, TOGAF and their peers were written when producing an artefact was slow and a snapshot was the best available. Both facts have stopped being true.
+
+**1. The cost of an artefact collapses toward zero.**
+AT/UMF were designed around artefact SCARCITY. A Requirements Specification took days; an Operational Model took weeks. So the method is necessarily sequential and single-pass — produce one, review it, move on. If artefacts are nearly free that constraint is gone, and a method built around it optimises for a problem that no longer exists. You could produce three competing architecture options and test them against each other. The old method has no step for that because it would have been madness.
+
+**2. Verification replaces production as the bottleneck.**
+Old constraint: can we produce the document. New constraint: can we trust it. That inverts where the architect's hours go. The method must be rebuilt around review, challenge and validation rather than authorship. Nothing in TOGAF or AT is designed for that, because verification was never the scarce thing.
+
+**3. Point-in-time becomes continuous.**
+Every artefact in the old method is a photograph. "show interfaces" is a snapshot; an as-built is accurate for one afternoon. Agents can hold state continuously — hence the living wiki (Sec 15), the run-state fleet, the network that keeps its own diary (Sec 28). NOT the old method done faster: a category of activity the old method could not contain.
+
+**4. Non-determinism enters a deterministic discipline.**
+The old method never needed a guardrail step because a document does not hallucinate. Now it does. This is why the interlock and the guardrails are new METHOD components, not just new tooling (Sec 13).
+
+**5. Work that was uneconomic becomes routine.**
+Nobody continuously audited port utilisation across an entire estate — not because it lacked value but because it cost more than it was worth. The method never included it. Now it can.
+
+---
+
+### THE ANSWER TO "WHY BOTHER, WE ALREADY HAVE A METHODOLOGY"
+
+Because your existing methodology encodes constraints that have just been removed. It is quietly optimising for a world that has gone.
+
+And the failure mode is symmetrical, with a documented example on each side:
+- **Klarna** used a new substrate to do the OLD thing more cheaply, rather than to do something previously impossible. It cost them.
+- **Detroit** had a better method available and saw no reason to change, because the old one was working.
+
+This is also the capacity-vs-cost-reduction argument (Sec 7) arriving from a new direction, and it is the urgency the paper needs.
+
+**LINES WORTH KEEPING:**
+"The principles persist. The methodology has to be rebuilt."
+"Every methodology is a set of compromises against what was expensive when it was written."
+"Frame-first was not a preference. It was the thing that made the Arsenal possible."
+"The checklist was not a method anyone had failed to adopt. It was a method that was not yet needed."
+"If you do not rebuild the method, you use the new substrate to do the old thing slightly cheaper. That is Klarna."
+"Your methodology is quietly optimising for a world that has gone."
+"The old method has no step for producing three competing architectures and testing them against each other, because that would have been madness."

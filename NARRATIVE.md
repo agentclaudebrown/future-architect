@@ -195,6 +195,22 @@ And you still run go/no-go on network changes today. Which is the last piece of 
 
 Which answers the question you asked about the Venetian shipwrights at SpaceX. The craft does not transfer — adzing oak is worthless there. But the craft was never what made the Arsenal work. The master's real skill was holding the whole ship in his head while working on one part of it, and knowing what good looked like at every handoff. That transfers. What crosses a substrate change is not knowledge of the material. It is knowledge of how systems fail and how people behave inside them.
 
+And there is one more thing in those four stories that neither of us saw the first time through, and it turns out to be the most important thing in the whole argument.
+
+In every single case, the substrate change did not leave the methodology intact. It made a methodology possible that nobody could previously have imagined.
+
+Frame-first was not a stylistic choice. Under hull-first the craftsman's eye determines the shape, so no two hulls are alike, so nothing is interchangeable, so you cannot have numbered components waiting in sheds, so you cannot have specialist stations — you cannot have any of it. The Arsenal could not have existed before the technique changed. The same is true of the checklist: before the Model 299, aircraft were simple enough that memory sufficed, so the checklist was not a method anyone had failed to adopt, it was a method that was not yet needed. And you cannot put a room full of specialists on individual subsystems in real time until telemetry exists to watch them with.
+
+Which closes the hole in your own thesis. "The ideas do not change, the substrate does" is true, and on its own it leaves a reader asking: so what? If methodology is the enduring thing and we already have one, why change anything at all?
+
+The answer is that those are two different words doing two different jobs. The principles persist — define the contract between intent and execution, know what good looks like, hold the whole while others hold the parts, someone human owns the call. But a methodology is not a principle. It is the instantiation of those principles against what happens to be possible and what happens to be expensive at the moment it is written. And that has to be torn up every time the substrate moves.
+
+Architectural Thinking was built when producing an artefact was slow, so it is sequential and single-pass — you make one, you review it, you move on. It has no step for generating three competing architectures and testing them against each other, because that would have been madness. It assumes the bottleneck is production, when the bottleneck is now trust. It treats every output as a photograph, because a photograph was the best anyone could get. It has no guardrail step, because documents do not hallucinate. And it never included continuous estate-wide auditing, not because that lacked value but because it cost more than it was worth.
+
+Every one of those constraints has just been removed. Which means the honest sentence is not that the methodology endures. It is that the principles endure and the methodology is now obsolete — and rebuilding it is the work.
+
+And the failure modes are already on the record, one on each side. Klarna took a new substrate and used it to do the old thing more cheaply. Detroit had a better method sitting in front of them and could not see why they would need it.
+
 So the line runs: Venice, Boeing, NASA, Detroit. Nine hundred years, four substrates, one pattern — and it is not that someone wrote something down. It is that the system makes excellence repeatable instead of personal; that inside the system the human's role has to be deliberately defined rather than assumed; and that the incumbent who is winning is the one who cannot see why any of it matters.
 
 ---
