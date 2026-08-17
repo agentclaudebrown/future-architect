@@ -147,8 +147,63 @@ This is also the capacity-vs-cost-reduction argument (Sec 7) arriving from a new
 "If you do not rebuild the method, you use the new substrate to do the old thing slightly cheaper. That is Klarna."
 "Your methodology is quietly optimising for a world that has gone."
 "The old method has no step for producing three competing architectures and testing them against each other, because that would have been madness."
+---
+
+### THE ENABLEMENT EXAMPLES — technology removes a constraint, which permits a method, which permits things nobody imagined
+
+Chris: "we need to find an example where a new technology or innovation ALLOWED the method to change." These are the strongest. The pattern in each: something changes → it removes a constraint the old method was built around → that permits a new method → the new method enables things nobody could have specified in advance.
+
+**A. The shipping container (26 April 1956) — THE BEST EXAMPLE IN BUSINESS HISTORY FOR THIS ARGUMENT**
+
+The SS Ideal-X, a converted WWII tanker, left Port Newark for Houston with 58 metal boxes bolted to a reinforced deck. Loading break-bulk cargo by hand cost about $5.83 per ton. Loading the same weight in containers: about 16 cents. A thirty-six-fold collapse in a core cost of world trade.
+
+**THE CRITICAL POINT — the technology is trivial:**
+Metal cargo boxes had existed for decades; several companies used them. Malcom McLean's insight, in the words of the Port Authority's own account, was that reducing the cost of shipping required "not only a strong metal box, but also an entirely new way of handling freight."
+
+THE BOX WAS NOT THE INNOVATION. The box made a new METHOD possible, and the method was worth trillions.
+
+**McLean was an outsider.** A trucking magnate from North Carolina, not a shipping man. He was not in the industry whose method he rewrote — he was standing in a queue at a pier watching longshoremen work, in 1937, and spent twenty years on the idea. Regulators would not allow one company to own both a trucking and a shipping line, so in 1955 he sold McLean Trucking and bought Pan-Atlantic Steamship.
+
+**What nobody imagined:** no one in 1956 said "this metal box will move manufacturing to Asia." But once handling costs collapse you get intermodal transport, then just-in-time manufacturing, then global supply chains, then offshoring, then the modern economy. By the end of the 20th century containers carried roughly 90% of world trade cargo.
+
+**The incumbents fought it, and the ports diverged:** railways, hauliers and shipping lines all resisted because containerisation would obsolete their business plans; dockers' unions opposed the automation. The Manhattan waterfront died. Newark/Elizabeth, Rotterdam, Singapore and LA became global hubs. Same technology available to everyone. The ones who rebuilt their method won; the ones who did not disappeared. (This is the Kodak/Detroit pattern again — Sec 18, Sec 37.4.)
+
+Sources: Marc Levinson, "The Box"; Port Authority of NY/NJ portfolio account; National Inventors Hall of Fame; FreightWaves Classics.
+
+**B. The Bezos API mandate (2002) — the purest case: a METHOD change created a product nobody set out to build**
+
+Chris already had this in the material as a precursor to agent contracts. It is better used as the strongest proof of enablement.
+
+The mandate: all teams will expose data and functionality through service interfaces; no other form of inter-process communication is permitted; and — the crucial clause — all interfaces, without exception, must be designed from the ground up to be EXTERNALISABLE.
+
+That is not a technology decision. It is a rule about how the parts of an organisation are permitted to talk to each other. A METHOD MANDATE.
+
+And it accidentally produced AWS. Amazon did not set out to build a cloud business. They enforced a method for internal reasons and discovered some years later that they had built a product that would become more valuable than the retailer.
+
+**This is the purest form of the pattern: a method change made possible something nobody set out to build.**
+
+**C. Venice — honest note on causation**
+
+There does not appear to be a specific technology that ENABLED frame-first construction. As far as the record shows it was a conceptual innovation — someone realised the sequence could be inverted — rather than a technologically triggered one. Say that honestly rather than manufacturing a cause; it makes a useful additional point, that sometimes the enabling change is an IDEA rather than a machine.
+
+The interesting part is not what caused frame-first. It is what frame-first PERMITTED: standardisation, interchangeable numbered components, specialist stations, the moving line — the entire Arsenal.
 
 ---
+
+### THE AI SENTENCE THIS ALL BUILDS TO
+
+Cheap artefacts, continuous state, and non-deterministic execution have removed the constraints our method was built around. What that permits, we do not fully know yet — but the people who rebuild the method get to find out, and the people who do not will use it to produce the same documents slightly faster.
+
+**LINES WORTH KEEPING (enablement):**
+"The box was not the innovation. The box made a new method possible — and the method was worth trillions."
+"Nobody in 1956 said this metal box will move manufacturing to Asia."
+"Same technology, available to everyone. The ports that rebuilt their method became global hubs. The ports that did not, died."
+"McLean was not in the industry whose method he rewrote. He was standing in a queue at a pier."
+"Amazon did not set out to build a cloud business. They enforced a method, and found they had built a product."
+"Sometimes the enabling change is an idea, not a machine."
+
+---
+
 > **Why it is here:** The sharpened thesis, patient zero, the reader, the genre. The single most important section in the file.
 
 ## A1 · [SEC 32] The Sharpened Thesis — Patient Zero, the Named Reader, and What the Paper Actually Argues (FOUNDATIONAL — supersedes vaguer framings)
