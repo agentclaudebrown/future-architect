@@ -181,7 +181,21 @@ Thirty years later, Japanese manufacturers were taking a quarter of the American
 
 Detroit was doing fine. That was precisely the problem. Which is the sentence to keep in your pocket for anyone who says the current approach is working.
 
-So the line runs: Venice, Boeing, Detroit. Nine hundred years, three substrates, one pattern. Every time a technology outgrows what a single person can hold in their head, the winner is never whoever has the best people or the best machine. It is whoever writes the method down first — and the loser is almost always the incumbent who was winning at the time, and therefore saw no reason to.
+And then the one you thought of yourself, which is better than all of them, because it is the only case where somebody sat down and deliberately architected the human role rather than leaving a gap where a person happened to fit.
+
+NASA Mission Control. Every flight controller is an expert in one system and speaks only to their own area. Any one of them can call an abort. Before anything significant, the Flight Director goes round the room, name by name, and takes a go or a no-go from each. And the job description for those controllers contains a sentence that should stop you dead: they are responsible for integrating the needs of their system into the larger needs of the vehicle, even if that plan is not necessarily in the best interests of the system they are responsible for.
+
+That is a written contract instructing every specialist to optimise for the whole rather than for their own part. It is precisely what you would have to specify for a fleet of agents, and NASA wrote it for humans sixty years ago.
+
+Now look at where the Flight Director sits in that room. He is not the best engineer present. Every single controller knows their own subsystem better than he does. His entire function is to hold the whole thing, translate between people who each see one piece of it, and own the call. Kranz, to his team before the Apollo 11 landing: whatever happens here today, I will stand beside every decision you make.
+
+That is the architect. Not the deepest expert on any component — the only one holding all of it, and the one whose name is on the outcome.
+
+And you still run go/no-go on network changes today. Which is the last piece of the argument, and it arrives almost as a gift. Deming's method crossed from telephone manufacturing into Japanese cars. The checklist crossed from cockpits into operating theatres. Go/no-go crossed from spaceflight into enterprise IT. Three methods, three substrate jumps, all intact.
+
+Which answers the question you asked about the Venetian shipwrights at SpaceX. The craft does not transfer — adzing oak is worthless there. But the craft was never what made the Arsenal work. The master's real skill was holding the whole ship in his head while working on one part of it, and knowing what good looked like at every handoff. That transfers. What crosses a substrate change is not knowledge of the material. It is knowledge of how systems fail and how people behave inside them.
+
+So the line runs: Venice, Boeing, NASA, Detroit. Nine hundred years, four substrates, one pattern — and it is not that someone wrote something down. It is that the system makes excellence repeatable instead of personal; that inside the system the human's role has to be deliberately defined rather than assumed; and that the incumbent who is winning is the one who cannot see why any of it matters.
 
 ---
 
