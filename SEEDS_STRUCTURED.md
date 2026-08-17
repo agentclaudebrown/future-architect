@@ -15,6 +15,9 @@
 - A3 — [SEC 35] The Scope Fence — What This Paper Is, and What the Follow-On Papers Are (SETTLES SEVERAL OPEN QUESTIONS)
 - A4 — [SEC 27] Chris's Thoughts — Switching Costs & "Supercharge, Not Replace" (added via web, May 2026)
 
+**OPENING EVIDENCE**
+- OP1 — [SEC 36] Air Canada, Klarna, and the Platform Precedent
+
 **PART I — THE JOB WAS ALWAYS ORCHESTRATION**
 - B1 — [SEC 4] The Thesis Crystallises
 - B2 — [SEC 5] The Continuity Argument (Section II)
@@ -221,6 +224,91 @@ The fence applies to both. Tool-as-subject is out of both. Tool-as-context-sourc
 ---
 
 
+
+# OP. OPENING EVIDENCE
+
+*Documented, public, verifiable examples for the opening. Deliberately NOT about Chris — his own stories land later as illustration.*
+
+> **Why it is here:** The opening sequence. Air Canada (substrate changes, obligation does not), Klarna (efficiency was real, the method was missing), platform/publisher (the same fight already fought). Pairs with the Sec 13 correction on the EU deferral.
+
+## OP1 · [SEC 36] The Opening Evidence — Air Canada, Klarna, and the Platform Precedent (OPENING MATERIAL — not about Chris)
+
+Chris's instinct: the paper should not open solely on his own experience. It needs documented, public, verifiable examples. These three do the work, and none of them are autobiography. His own stories (Ashburn, the 2am call) then land later as ILLUSTRATION rather than as the basis of the argument.
+
+### A. Moffatt v. Air Canada (2024 BCCRT 149) — THE OPENING
+
+November 2022: Jake Moffatt's grandmother died. He asked Air Canada's website chatbot about bereavement fares. The chatbot told him he could book at full fare and claim a refund within ninety days. That was wrong — the actual policy does not allow retroactive claims. Air Canada refused the refund. Moffatt fought for roughly eighteen months over about CAD $1,630.
+
+**Air Canada's defence, from the ruling: the chatbot was "a separate legal entity that is responsible for its own actions."**
+
+Tribunal member Christopher Rivers called it a "remarkable submission," noting Air Canada had not explained why it believed that was the case, nor why a webpage titled "Bereavement travel" was inherently more trustworthy than its own chatbot. Decision published 14 February 2024. Damages CAD $812.02 plus interest and fees.
+
+**THE LINE THAT IS THE THESIS — the tribunal's actual reasoning:**
+Air Canada was responsible for all of the information on its website, REGARDLESS OF WHETHER IT APPEARED ON A STATIC PAGE OR WAS PROVIDED BY A CHATBOT.
+
+The substrate changed. The obligation did not move. Air Canada's entire argument was that a change of substrate changes the nature of accountability. A tribunal said no: same duty, different delivery mechanism. That is "the ideas don't change, the substrate does," delivered by a Canadian small-claims tribunal in 2024, with money attached.
+
+**The escalation (Chris's line — use as the turn):**
+It is no stretch to say that if the agent had had the capability and the means, it would have issued the refund itself. What then? Would they fire their own agent? Revoke its credentials? Write it up?
+The joke exposes what the defence was actually reaching for: the UPSIDE OF DELEGATION WITHOUT THE ACCOUNTABILITY OF EMPLOYMENT. A servant with no master. The moment the system can ACT rather than merely SPEAK, that position collapses — you cannot discipline software, you can only govern it, and governing it is a human's job.
+
+**HONEST CAUTIONS (do not overclaim):**
+- It is a chatbot giving wrong information, NOT an agent taking autonomous action. Someone will point at that gap.
+- It is a small-claims tribunal, not a court setting binding precedent.
+- Cite the REASONING (static page vs chatbot), not the authority of the forum.
+
+Sources: Moffatt v. Air Canada, 2024 BCCRT 149; McCarthy Tétrault TechLex; American Bar Association Business Law Today (Feb 2024); Pinsent Masons Out-Law.
+
+### B. Klarna — the cost-optimisation trap, proven with real numbers
+
+February 2024: Klarna announced its OpenAI-powered agent was doing the work of 700 full-time customer service agents — 2.3 million conversations in one month, resolution time down from 11 minutes to under 2, roughly $40M in projected annual savings. Headcount fell from about 5,500 to around 3,000.
+
+May 2025, CEO Sebastian Siemiatkowski to Bloomberg: **"We went too far."** And: **"We focused too much on cost. The result was lower quality."** Also: "From a brand perspective, from a company perspective, I just think it's so critical that you are clear to your customer that there will always be a human if you want."
+
+**THE CRITICAL DETAIL — the efficiency was REAL:**
+Cost per customer service transaction genuinely fell about 40%, from $0.32 to $0.19. This is NOT a story about AI failing to work. The technology did what it was asked.
+
+**The actual diagnosis (this is the paper's argument):**
+Siemiatkowski attributed the problem to DECISION-MAKING — over-weighting cost as the evaluation factor — rather than to AI capability. The failure was ORGANISATIONAL: the wrong objective function produced the wrong outcome. And what did not exist was the MONITORING LAYER to catch where the deployment was failing alongside the dimension on which it was succeeding.
+
+They optimised for the wrong variable, had no method for noticing, and had to buy it back. This is Sec 7 (cost reduction vs capacity expansion) playing out at a real company with public numbers, and Chris wrote that argument in April before knowing this detail.
+
+**The correction they landed on is the interlock, arrived at expensively:** a hybrid "Uber-type" model — remote human agents, flexible hours, equipped with AI tools that assist them in every conversation, with a human always reachable.
+
+Sources: Bloomberg (May 2025); TechCrunch (London SXSW, June 2025); Entrepreneur; Bigeye "AI Autopsy 002"; CNBC on headcount.
+
+### C. The platform vs publisher precedent — the same fight, already fought
+
+Not another example. A PRECEDENT. The same argument at civilisational scale, with decades of hindsight.
+
+The pattern recurs exactly: a new substrate appears; someone argues it is a fundamentally new category to which old obligations do not apply. Publisher versus platform. Aggregator versus editor. "We are just a neutral pipe." Google, Twitter, Facebook — who is responsible for the output, who moderates it, what happens when moderation fails.
+
+And over ten to twenty years the answer converges on the same place: IF YOU SHAPE WHAT COMES OUT, YOU OWN WHAT COMES OUT. Sometimes via courts, sometimes regulation, sometimes public pressure — but it converges.
+
+**Why this matters for the paper:** it is the thesis at a different scale. The substrate changed; the obligation did not move. It simply took two decades and enormous cost to establish, because everyone spent the first decade arguing the substrate was special.
+
+**The warning to put in front of an enterprise reader:**
+We are currently in the "we're just a neutral pipe" phase of agentic AI. Air Canada tried it in 2024 and lost in a small-claims tribunal over eight hundred dollars. Someone will try it in 2027 over eighty million. The organisations that decide NOW who owns the output are the ones that will not be discovering it in a courtroom.
+
+**HONEST CAUTION:** the platform/publisher question is legally contested, jurisdiction-dependent, and genuinely unresolved in places. Do NOT claim it was settled. Claim that the PATTERN OF THE ARGUMENT recurs and that the direction of travel has consistently been toward the deployer bearing responsibility. Gesture at the shape; do not adjudicate it. Chris is a network architect, not a media lawyer, and the reader will trust him more for staying in lane.
+
+### THE ASSEMBLED OPENING SEQUENCE
+
+1. A company argued the machine was a separate legal entity — and lost, because responsibility does not move when the substrate does.
+2. Another replaced 700 people, achieved the cost savings it promised, and still had to buy it back — because it optimised for the wrong variable and had no method for noticing.
+3. The EU has just deferred its own flagship AI law by sixteen months because the standards for human oversight do not exist yet (see Sec 13 correction).
+4. Those were systems that SAID things. What happens now they DO things — and who is the human whose name is on it?
+
+Three companies, one regulator, same conclusion: the missing piece is not capability. It is method.
+
+**Lines worth keeping:**
+"They wanted the upside of delegation without the accountability of employment."
+"You cannot discipline software. You can only govern it. And governing it is a human's job."
+"Air Canada tried it in 2024 over eight hundred dollars. Someone will try it in 2027 over eighty million."
+"The efficiency was real. That is what makes Klarna frightening, not reassuring."
+"They optimised for the wrong variable and had no method for noticing."
+
+---
 # B. PART I — THE JOB WAS ALWAYS ORCHESTRATION
 
 *Establish structurally, not wishfully, that the role transforms rather than disappears.*
@@ -545,6 +633,35 @@ Even if you solve context, what if it's just a bad brain? Malevolent? For no rea
 **The line:** "The future architect is not just a productivity multiplier. They are a compliance instrument. Their signature is not bureaucracy. It is documented evidence of Meaningful Human Control."
 
 **Data points:** Deloitte 2026: orgs with RACI models resolve incidents 54% faster, face 41% lower regulatory scrutiny. Gartner: 71% of enterprises lack formal agent governance; 64% plan to increase autonomy within 12 months.
+
+**⚠️ CRITICAL CORRECTION — August 2026. The above dates and penalty figures are OUT OF DATE. Use the following instead.**
+
+**The high-risk obligations were DEFERRED. They did not come into force on 2 August 2026.**
+Regulation (EU) 2026/1744 — the "Digital Omnibus on AI" — was published in the Official Journal on 24 July 2026 and entered into force on 27 July 2026, six days before the original deadline.
+- Annex III standalone high-risk systems (recruitment, credit scoring, education, essential services, law enforcement): deferred from 2 August 2026 to **2 December 2027**
+- Annex I high-risk AI embedded in regulated products: deferred to **2 August 2028**
+- Grandfathering: systems placed on the market before those dates avoid full high-risk obligations unless SUBSTANTIALLY MODIFIED after them
+- Article 50 transparency obligations DID take effect 2 August 2026 and ARE live and enforceable now
+- New Article 5 prohibitions added (non-consensual intimate imagery, CSAM)
+
+**PENALTY TIERS — the 35M/7% figure above is WRONG for human oversight breaches:**
+- €35M or 7% of global turnover = PROHIBITED PRACTICES only (Article 5)
+- €15M or 3% = transparency and HIGH-RISK breaches (this is the tier Article 14 human oversight sits in)
+Quoting 7% for a human-oversight failure will get you corrected by the first compliance person in the room. Get this right.
+
+**WHY THE DEFERRAL IS BETTER FOR THE PAPER THAN THE DEADLINE WAS:**
+Read the Commission's stated reasoning for the delay: neither industry nor the standards bodies (CEN and CENELEC) would be ready in time, and the conformity-assessment infrastructure the Act assumes would exist had not yet matured.
+
+The law was not postponed because the technology was not ready.
+It was postponed because THE METHODOLOGY DID NOT EXIST.
+
+Sixteen months of reprieve, granted because nobody had worked out how to actually do the thing the law requires. And the professional compliance advice on what to do with the window is explicit: reallocate it deliberately toward conformity assessment, technical documentation, and HUMAN-OVERSIGHT DESIGN — not treat it as a pause.
+
+Human-oversight design is precisely what this paper defines. A regulator has formally, publicly acknowledged that the human-oversight architecture does not exist, and has put a date on when it must. The paper walks into an officially acknowledged gap with a stated closing date of 2 December 2027.
+
+Framing to use: not "there is a deadline, panic." Instead: "there is a defined window, it closes on 2 December 2027, and what is supposed to be built during it is exactly what nobody has defined."
+
+Sources: CSA research note on the high-risk deadline deferral; Orrick, "EU AI Act Update: Digital Omnibus Finalizes 8 Compliance Changes" (July 2026); Gibson Dunn omnibus analysis; Certivo, "EU AI Act August 2026: What Applies After the Digital Omnibus".
 
 **Non-determinism breaks the foundational contract of enterprise IT (Issue #1):**
 Enterprise IT was built on determinism. Same input, same output, every time. That assumption is load-bearing — it's what a config *is*, what a test suite asserts, what an audit relies on, what a runbook promises. Agentic AI breaks that contract at the root: AI is non-deterministic by design, so no two runs are guaranteed identical. Two identical requests can produce two different results.
