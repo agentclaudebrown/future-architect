@@ -1309,3 +1309,14 @@ Cheap artefacts, continuous state, and non-deterministic execution have removed 
 "McLean was not in the industry whose method he rewrote. He was standing in a queue at a pier."
 "Amazon did not set out to build a cloud business. They enforced a method, and found they had built a product."
 "Sometimes the enabling change is an idea, not a machine."
+---
+
+## 39. TITLE IDEAS (parked — revisit after first draft)
+
+**"The Box"** — Chris, Aug 2026. Double meaning: Levinson's shipping container (the object that was worthless until the system around it was rebuilt) AND the AI black box. The argument in two words: everyone is staring INTO the box; the value is in redesigning everything AROUND it.
+
+Caution: Levinson's book is literally called "The Box," so a bare use reads as homage or collision. Would need a qualifier or a subtitle that makes the AI meaning primary. Also risks foregrounding the container story when the paper is about the architect.
+
+Other candidates so far: "The Future Architect" (working title only, weak). Nothing else settled.
+
+Revisit once the opening is drafted — the title usually falls out of the first page rather than the other way round.
