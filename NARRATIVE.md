@@ -157,6 +157,34 @@ And the larger realisation underneath both: GitHub, historically a tool for soft
 
 ---
 
+## VIII-b. And then you found out it had happened before, repeatedly, for nine hundred years
+
+The thing you wanted was a line through history. Something that proved this was not a shiny new AI conversation but an old human truth wearing a new coat. It exists, and it is better documented than you would expect.
+
+Start in Venice, in 1104. The Arsenal was a state shipyard that grew into the largest industrial complex in the world before the Industrial Revolution — fifteen percent of the city, behind a two-mile wall, sixteen thousand workers at its peak. It could turn out close to a ship a day when the rest of Europe took months, and in one ten-month stretch in the 1530s it produced fifty hulls. Not because Venice had better shipwrights. Because it had standardised interchangeable parts, a moving assembly line where the hull was towed by canal from shed to shed so the ship came to the workers, numbered hulls with every component tagged to match, and just-in-time prefabrication. Four hundred years before Ford was credited with inventing any of it. That method made a small city the richest place on earth and held the Mediterranean for centuries. The ships were the output. The method was the asset.
+
+Then Dayton, Ohio, the thirtieth of October 1935, which is the story you should probably build on. The US Army Air Corps had a flight competition for its next bomber and it was not supposed to be a contest — Boeing's Model 299 carried five times the bombs the Army asked for, flew faster and nearly twice as far, and a journalist had already nicknamed it the flying fortress. At the controls was Major Ployer Hill, the Chief of Flying, the best pilot available. The aircraft took off, pitched up, stalled, and burned. Hill had forgotten to release a locking mechanism on the elevator and rudder.
+
+A newspaper delivered the verdict that everyone accepted: too much airplane for one man to fly. The contract went to Douglas's smaller, simpler design. Boeing nearly went bankrupt.
+
+But the investigating team reached a different conclusion, and it is the sentence your entire paper turns on. The Model 299 was not too much airplane for one man to fly. It was simply too complex for any one man's memory.
+
+Notice what they did with that. They did not order more training. They did not simplify the aircraft. They did not decide the machine was beyond human control. A few test pilots wrote a checklist short enough to fit on an index card — release the brakes, set the instruments, close the doors, unlock the elevator controls. Elementary things. With it, the aircraft flew one point eight million miles without an accident, the Army ordered thirteen thousand of them, and the B-17 gave the Allies air superiority in a world war.
+
+Sit with the shape of that for a moment, because it is exactly the shape of the argument you have been making. The capability was real and superior. The most expert human available still failed. The popular diagnosis — the machine is too much for a person — was wrong, and it was wrong in the same way "AI will replace the architect" is wrong and in the same way "ban the tools because the output is chaotic" is wrong. The correct diagnosis was that the method was missing, not the skill. The fix was cheap, written down, and unglamorous. And whoever adopted it won at civilisational scale.
+
+Amazon called Kiro user error. A newspaper called the Model 299 too much airplane. Same class of wrong answer, ninety years apart. Blame the operator, or blame the machine — anything except admit nobody had written down how to do it.
+
+And then the third one, which belongs next to Kodak rather than next to the checklist. Edwards Deming was an American statistician with a method for quality control, and he offered it to Detroit, and Detroit was not interested. Not out of stupidity — out of success. Europe was in ruins, Japan more so, and American car makers were the undisputed leaders of the world. Why would they change? So in 1950 he took it to Japan, where an industry rebuilding from nothing adopted it wholesale. It became the foundation of the Toyota Production System. The Emperor gave him a medal in 1960 and credited him with the country's industrial recovery.
+
+Thirty years later, Japanese manufacturers were taking a quarter of the American market and the trade deficit had reached forty-nine billion dollars, and Ford phoned Deming — by then nearly eighty — after a television documentary asked "If Japan Can, Why Can't We?" American executives who had led the world had to go back and adopt a system built from an American idea they had personally rejected.
+
+Detroit was doing fine. That was precisely the problem. Which is the sentence to keep in your pocket for anyone who says the current approach is working.
+
+So the line runs: Venice, Boeing, Detroit. Nine hundred years, three substrates, one pattern. Every time a technology outgrows what a single person can hold in their head, the winner is never whoever has the best people or the best machine. It is whoever writes the method down first — and the loser is almost always the incumbent who was winning at the time, and therefore saw no reason to.
+
+---
+
 ## IX. The moat, at two altitudes
 
 You've made the moat argument twice, and they are not the same argument. Keep them separate.
